@@ -42,7 +42,8 @@ export default function Home() {
         </div>
 
         <div>
-          <h3 className="font-semibold text-xl mb-2">Online Skills Education</h3>
+         <h3 className="font-semibold text-xl mb-2">Online Skills / Tools</h3>
+...
           <p>
             Beginner-friendly guidance on working online, AI tools, productivity
             tools, and digital organization for anyone.
@@ -50,7 +51,7 @@ export default function Home() {
         </div>
 
         <div>
-          <h3 className="font-semibold text-xl mb-2">Youth & Civic Empowerment</h3>
+          <h3 className="font-semibold text-xl mb-2">Civic Education</h3>
           <p>
             Digital literacy, online awareness, beneficial tools, and responsible
             internet use for youth and communities.
