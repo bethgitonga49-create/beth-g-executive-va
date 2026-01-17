@@ -4,13 +4,15 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Beth G — The Executive VA',
+  title: 'Beth G — The Executive Virtual Assistant',
   description:
-    'Empowering individuals with online skills, work guidance, and civic education. Learn digital tools, AI platforms, and build sustainable income online.',
+    'I support founders, consultants, and growing businesses with strategic executive assistance built on clarity, discretion, and results.
+',
   openGraph: {
-    title: 'Beth G — The Executive VA',
+    title: 'Beth G — The Executive Virtual Assistant',
     description:
-      'Empowering individuals with online skills, work guidance, and civic education. Learn digital tools, AI platforms, and build sustainable income online.',
+      'I support founders, consultants, and growing businesses with strategic executive assistance built on clarity, discretion, and results.
+',
     url: 'https://your-vercel-deployment-url.vercel.app',
     siteName: 'Beth G — The Executive VA',
     images: [
