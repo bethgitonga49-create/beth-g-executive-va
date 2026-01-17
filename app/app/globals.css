@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CUSTOM BASE STYLES */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Utility classes for cards and containers */
+.card {
+  @apply p-6 rounded-2xl border shadow-sm hover:shadow-md transition;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-6;
+}
