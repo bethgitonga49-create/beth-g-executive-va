@@ -67,56 +67,33 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* MAIN CONTENT */}
         <main>{children}</main>
 
-        {/* FOOTER */}
-        <footer className="bg-gray-100 text-gray-700 py-10 mt-20">
-          <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-            <div className="text-center md:text-left mb-4 md:mb-0">
-              © {new Date().getFullYear()} Beth G — The Executive VA. All rights reserved.
-            </div>
-            <div className="flex space-x-4">
-              <a
-                href="https://www.instagram.com/bethgexecutiveva"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                Instagram
-              </a>
-              <a
-                href="https://twitter.com/bethexecutiveva"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                X
-              </a>
-              <a
-                href="https://www.youtube.com/@BethGExecutiveVA"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                YouTube
-              </a>
-              <a
-                href="https://www.tiktok.com/@BETHGEXECUTIVEVA"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                TikTok
-              </a>
-              <a
-                href="https://www.facebook.com/bethg.theexecutiveva"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                Facebook
-              </a>
-            </div>
-          </div>
-        </footer>
+       <footer style={{ marginTop: "4rem", padding: "2rem", borderTop: "1px solid #e5e7eb" }}>
+  <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+    <p><strong>Beth G — Executive Virtual Assistant</strong></p>
+    <p>
+      Strategic executive support, online skills education, digital tools guidance,
+      and civic education.
+    </p>
+
+    <p>
+      Email: <a href="mailto:bethgexecutiveva@gmail.com">bethgexecutiveva@gmail.com</a>
+    </p>
+
+    <div style={{ marginTop: "1rem" }}>
+      <a href="https://instagram.com/bethgexecutiveva" target="_blank">Instagram</a> ·{" "}
+      <a href="https://twitter.com/bethexecutiveva" target="_blank">X</a> ·{" "}
+      <a href="https://www.youtube.com/@BethGExecutiveVA" target="_blank">YouTube</a> ·{" "}
+      <a href="https://www.tiktok.com/@bethgexecutiveva" target="_blank">TikTok</a> ·{" "}
+      <a href="https://www.facebook.com/bethgtheexecutiveva" target="_blank">Facebook</a> ·{" "}
+      <a href="https://www.linkedin.com/in/beth-g-/" target="_blank">LinkedIn</a>
+    </div>
+
+    <p style={{ marginTop: "1rem", fontSize: "0.9rem", color: "#6b7280" }}>
+      © {new Date().getFullYear()} Beth G. All rights reserved.
+    </p>
+  </div>
+</footer>
+
       </body>
     </html>
   );
