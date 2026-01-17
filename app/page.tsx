@@ -1,7 +1,22 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function HomePage() {
-  return (
+  return (<>
+  <Head>
+    <title>Beth G - The Executive VA | Online Skills & Civic Education</title>
+    <meta
+      name="description"
+      content="Learn online skills, AI tools, remote work tips, civic education, and blog insights with Beth G, The Executive VA."
+    />
+    <meta property="og:title" content="Beth G - The Executive VA" />
+    <meta
+      property="og:description"
+      content="Online skills, blog, civic education, and guidance for working online."
+    />
+    <meta property="og:type" content="website" />
+  </Head>
+
     <main className="min-h-screen bg-white text-gray-900">
       {/* HERO SECTION */}
       <section className="px-6 py-20 text-center bg-gradient-to-b from-gray-50 to-white">
@@ -101,6 +116,8 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
-    </main>
-  );
+ </main>
+</>
+);
 }
+
